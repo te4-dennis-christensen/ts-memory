@@ -18,8 +18,8 @@ class Game {
         this.cards.map(card => card.render())
     }
 
-    public click(){
-
+    public click(e : Event){
+        console.log(e)
     }
 
     public shuffle(list : any[]){
